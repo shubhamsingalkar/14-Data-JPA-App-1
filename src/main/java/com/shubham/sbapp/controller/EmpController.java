@@ -67,7 +67,7 @@ public class EmpController {
 	@GetMapping("/getbyname/{str}")
 	public List<Employee>findByName (@PathVariable String str){
 
-		List<Employee> byName = empService.findByName(str); // It executes WHERE clause
+		List<Employee> byName = empService.findByName(str); // It executes WHERE clause ..
 
 		System.out.println(byName);
 		return byName;
