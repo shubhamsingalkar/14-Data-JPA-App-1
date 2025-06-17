@@ -14,7 +14,7 @@ public class Employee {
 	@Id
 	private Integer eid;
 	private String ename;
-	private double esalary;
+	private Double esalary;
 	private String place;
 
 
